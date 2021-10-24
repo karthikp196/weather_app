@@ -11,9 +11,9 @@
     <!-- bootstrap core css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- custom css -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Style.css" rel="stylesheet">
     <!-- responsive css -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/Responsive.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
