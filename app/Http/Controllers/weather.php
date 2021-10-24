@@ -45,8 +45,8 @@ class Weather extends Controller
         $message['city'] = $location;
 
         // To insert into table
-        // DB::table('weather_data')->insert(['weather_status' => $weather_status , 'description' =>  $description , 'temperature' => $celcius , 
-        // "feel_like" => $feel_like , "humidity" => $humidity ,"pressure" => $pressure , "city" => $location ]);
+        DB::table('weather_data')->insert(['weather_status' => $weather_status , 'description' =>  $description , 'temperature' => $celcius , 
+        "feel_like" => $feel_like , "humidity" => $humidity ,"pressure" => $pressure , "city" => $location ]);
 
         // To use the Response in DOM
         echo json_encode($message);
