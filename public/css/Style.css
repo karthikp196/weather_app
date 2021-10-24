@@ -1,0 +1,168 @@
+
+
+body {
+    background: rgb(170,202,227);
+    background: linear-gradient(90deg, rgba(170,202,227,1) 0%, rgba(45,149,203,1) 100%);
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+
+/* Home page styles */
+.weather-data
+{
+    background: rgb(45,149,203);
+    background: linear-gradient(336deg, rgba(45,149,203,1) 0%, rgba(255,255,255,1) 100%);
+    position: relative;
+    padding: 50px;
+    right: 15px;
+}
+
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+
+.weather-img {
+    width: 200px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.weather-info
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 10px;
+}
+
+.weather-info h1,h3,p
+{
+   margin:0px;
+}
+
+.weather-info p span{
+    font-size: 24px;
+}
+
+.weather-body
+{
+    background-color: #396487;
+    padding: 0 !important;
+    margin:100px auto;
+    box-shadow: 0 2px 40px 0 rgb(0 0 0 / 7%);
+
+}
+.weather-search
+{
+  
+  padding: 30px;
+  position: relative;
+}
+
+.search-top > input {
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    width: 95%;
+    color: white;
+}
+
+.search-top > button {
+    padding: 18px;
+    background: whitesmoke;
+    border: none;
+    position: absolute;
+    top: 0;
+    font-size: 18px;
+    right: -15px;
+}
+
+.city-info
+{
+    margin-top: 20px;
+}
+
+.city-info p {
+    margin: 5px 0px;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.city-info p:hover {
+    background-color: whitesmoke;
+    color: gray;
+}
+
+::placeholder { 
+    color: whitesmoke;
+    opacity: 1; 
+  }
+
+
+  .weather_dts
+  {
+      padding: 10px 0px;
+      position: relative;
+  }
+
+  .weather_datas{
+      color: whitesmoke;
+      margin: 5px 0px;
+      padding:10px 5px;
+  }
+
+  .cloud_icon
+  {
+      display: none;
+  }
+  .celcius_span
+  {
+      display: none;
+  }
+
+  /* Loader Style */
+  #cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #141526;
+    z-index: 9999;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    opacity: 0.7;
+    font-family:tahoma;
+    display: none;
+  }
+
+  .refresh_div
+  {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+  }
+
+  .refresh_btn
+  {
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
