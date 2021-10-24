@@ -15,7 +15,7 @@ $(document).ready(function()
    {
        var location = $("#location").val();
        var data = {location : location};
-       var url = "http://127.0.0.1:8000/weather";
+       var url = "https://weather-appkarthik.herokuapp.com/weather";
        localStorage.setItem('place', location);
 
        $.ajax(
@@ -56,7 +56,7 @@ $(document).ready(function()
    {
        var location = localStorage.getItem('place');
        var data = {location : location};
-       var url = "http://127.0.0.1:8000/weather";
+       var url = "https://weather-appkarthik.herokuapp.com/weather";
      
        $.ajax(
        {
